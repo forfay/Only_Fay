@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Ulang Tahun Fay!</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Nunito:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Lily+Script+One&family=Satisfy&family=Sofia&display=swap" rel="stylesheet">
+
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="greeting">
+            <h1 id="greeting-message">Selamat Ulang Tahun, Fay!</h1>
+            <p>Semoga Allah SWT selalu memberikanmu kesehatan, kebahagiaan, kemudahan dan keberkahan dalam hidupmu.<br/> Semoga segala semua impian dan harapanmu tercapai di tahun yang baru ini. Aamiin ya rabbal 'alamin..</p>
+            <p>Semoga kamu juga lekas membaik ya dari peristiwa minggu kemarin<br/>😁</p>
+        </div>
+        
+        <div class="button-container">
+            <button id="rayakan" onclick="celebrate()">Klik untuk rayakan Ulang Tahunmu!</button>
+            <!-- Tombol Audio -->
+            <button id="audioToggle" class="audio-toggle" onclick="pauseAudio()">🔊</button>
+        </div>
+        
+        <audio id="birthdaySong" src="Anugerah.mp3"></audio>
+
+        <div>
+            <img id="myImage" src="goyang.webp" width="125" height="125" alt="hi!" title="hi!" class="img-small" onclick="changeImage()">
+        </div>
+
+        <div>
+            <p id="notes" class="note">
+                <b>*Note:</b> Klik tombol ikon 🔊 (speaker) diatas untuk mematikan audio.
+            </p>
+        </div>
+    </div>
+
+    <!-- Link to External JavaScript -->
+    <script src="/script.js"></script>
+</body>
+</html>
