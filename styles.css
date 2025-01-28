@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75vh;
+    height: 85vh;
     color: #333;
     overflow: hidden;
 }
@@ -195,10 +195,10 @@ button:hover {
 }
 
 .audio-toggle {
-    position: fixed;
+    position: absolute;
     z-index: 9999;
-    top: 20px;
-    left: 20px;
+    top: 10%;
+    left: 10%;
     background-color: #47acff;
     color: white;
     font-size: 24px;
