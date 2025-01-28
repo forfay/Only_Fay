@@ -197,8 +197,8 @@ button:hover {
 .audio-toggle {
     position: absolute;
     z-index: 9999;
-    top: 10%;
-    left: 10%;
+    bottom: 10%;
+    right: 10%;
     background-color: #47acff;
     color: white;
     font-size: 24px;
