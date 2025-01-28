@@ -82,8 +82,12 @@ function pauseAudio() {
     if (birthdaySong.paused) {
         birthdaySong.play();
         audioButton.textContent = "🔊";
+	    // Jalankan animasi properti animation
+        audioButton.style.animation = '';
     } else {
         birthdaySong.pause();
         audioButton.textContent = "🔇";
+	    // Menghentikan animasi dengan menghapus properti animation
+        audioButton.style.animation = 'none';
     }
 }
